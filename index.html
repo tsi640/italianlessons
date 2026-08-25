@@ -104,7 +104,7 @@
     .toast{position:fixed;z-index:120;left:50%;bottom:calc(92px + var(--safeBottom));transform:translateX(-50%) translateY(15px);background:var(--text);color:var(--card);border-radius:14px;padding:11px 14px;font-size:13px;font-weight:700;opacity:0;pointer-events:none;transition:.25s;max-width:calc(100% - 36px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
     .confetti{position:fixed;inset:0;pointer-events:none;z-index:130;overflow:hidden}.confetti i{position:absolute;width:8px;height:15px;border-radius:3px;background:var(--terra);top:-30px;animation:fall 1.2s ease-in forwards}.confetti i:nth-child(3n){background:var(--green)}.confetti i:nth-child(3n+1){background:var(--gold)}@keyframes fall{to{transform:translateY(105dvh) rotate(520deg);opacity:.5}}
     .lock-note{padding:10px 12px;border-radius:14px;background:var(--card2);font-size:12px;color:var(--muted);margin-top:10px}
-    .cloud-gate{position:fixed;z-index:160;inset:0;background:var(--bg);padding:var(--safeTop) 18px var(--safeBottom);overflow:auto;display:flex;justify-content:center}.cloud-wrap{width:min(560px,100%);min-height:100%;display:flex;flex-direction:column;justify-content:center;padding:26px 0}.cloud-logo{width:76px;height:76px;border-radius:25px;background:linear-gradient(145deg,var(--green),color-mix(in srgb,var(--green) 70%,#000));color:#fff;display:grid;place-items:center;font-size:30px;box-shadow:var(--shadow);margin-bottom:22px}.cloud-card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:20px;box-shadow:var(--shadow2)}.cloud-card h1{font-size:31px;letter-spacing:-.035em;margin:0 0 8px}.auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--card2);padding:5px;border-radius:16px;margin:18px 0}.auth-tabs button{min-height:42px;border-radius:12px;background:transparent;font-weight:760}.auth-tabs button.active{background:var(--card);box-shadow:var(--shadow2)}.cloud-status{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:750;padding:6px 9px;border-radius:99px;background:var(--greenSoft);color:var(--green)}.cloud-status.offline{background:var(--terraSoft);color:var(--terra)}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.compare-card{background:var(--card2);border-radius:20px;padding:14px;min-width:0}.compare-card.me{outline:2px solid color-mix(in srgb,var(--green) 28%,transparent)}.compare-card .avatar{width:40px;height:40px;font-size:14px}.compare-metric{display:flex;justify-content:space-between;gap:8px;padding:7px 0;border-top:1px solid var(--line);font-size:13px}.compare-metric:first-of-type{margin-top:9px}.sync-line{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-top:8px}.invite-code{font-size:25px;font-weight:850;letter-spacing:.12em;text-align:center;padding:14px;border-radius:18px;background:var(--card2);user-select:text;-webkit-user-select:text}.cloud-error{margin-top:12px;border-radius:15px;padding:11px 13px;background:var(--terraSoft);color:var(--terra);font-size:13px;line-height:1.4}.voice-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.voice-list{display:grid;gap:9px;margin-top:12px}.voice-msg{display:flex;align-items:center;gap:11px;padding:12px;border-radius:18px;background:var(--card2);border:1px solid transparent}.voice-msg.mine{background:var(--greenSoft)}.voice-play{width:46px;height:46px;border-radius:15px;background:var(--card);display:grid;place-items:center;color:var(--green);flex:0 0 auto;box-shadow:var(--shadow2)}.voice-meta{min-width:0;flex:1}.voice-meta b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.voice-meta small{display:block;color:var(--muted);margin-top:3px}.voice-new{font-size:11px;font-weight:800;color:#fff;background:var(--terra);border-radius:999px;padding:5px 8px}.record-orb{width:94px;height:94px;border-radius:50%;margin:18px auto 12px;display:grid;place-items:center;background:var(--terra);color:#fff;font-size:31px;box-shadow:0 10px 35px color-mix(in srgb,var(--terra) 32%,transparent);transition:transform .15s ease}.record-orb.recording{animation:recordPulse 1.2s ease-in-out infinite}.record-orb:active{transform:scale(.97)}@keyframes recordPulse{50%{box-shadow:0 10px 45px color-mix(in srgb,var(--terra) 50%,transparent);transform:scale(1.04)}}.record-time{text-align:center;font-size:31px;font-weight:820;letter-spacing:-.03em}.record-status{text-align:center;color:var(--muted);font-size:13px;min-height:20px}.audio-preview{width:100%;margin:12px 0}.segmented{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--card2);padding:5px;border-radius:16px}.segmented button{min-height:42px;border-radius:12px;background:transparent;font-weight:760}.segmented button.active{background:var(--card);box-shadow:var(--shadow2)}
+    .cloud-gate{position:fixed;z-index:160;inset:0;background:var(--bg);padding:var(--safeTop) 18px var(--safeBottom);overflow:auto;display:flex;justify-content:center}.cloud-wrap{width:min(560px,100%);min-height:100%;display:flex;flex-direction:column;justify-content:center;padding:26px 0}.cloud-logo{width:76px;height:76px;border-radius:25px;background:linear-gradient(145deg,var(--green),color-mix(in srgb,var(--green) 70%,#000));color:#fff;display:grid;place-items:center;font-size:30px;box-shadow:var(--shadow);margin-bottom:22px}.cloud-card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:20px;box-shadow:var(--shadow2)}.cloud-card h1{font-size:31px;letter-spacing:-.035em;margin:0 0 8px}.auth-tabs{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--card2);padding:5px;border-radius:16px;margin:18px 0}.auth-tabs button{min-height:42px;border-radius:12px;background:transparent;font-weight:760}.auth-tabs button.active{background:var(--card);box-shadow:var(--shadow2)}.cloud-status{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:750;padding:6px 9px;border-radius:99px;background:var(--greenSoft);color:var(--green)}.cloud-status.offline{background:var(--terraSoft);color:var(--terra)}.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.compare-card{background:var(--card2);border-radius:20px;padding:14px;min-width:0}.compare-card.me{outline:2px solid color-mix(in srgb,var(--green) 28%,transparent)}.compare-card .avatar{width:40px;height:40px;font-size:14px}.compare-metric{display:flex;justify-content:space-between;gap:8px;padding:7px 0;border-top:1px solid var(--line);font-size:13px}.compare-metric:first-of-type{margin-top:9px}.sync-line{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-top:8px}.invite-code{font-size:25px;font-weight:850;letter-spacing:.12em;text-align:center;padding:14px;border-radius:18px;background:var(--card2);user-select:text;-webkit-user-select:text}.cloud-error{margin-top:12px;border-radius:15px;padding:11px 13px;background:var(--terraSoft);color:var(--terra);font-size:13px;line-height:1.4}.voice-head{display:flex;align-items:center;justify-content:space-between;gap:10px}.voice-list{display:grid;gap:9px;margin-top:12px}.voice-msg{display:flex;align-items:center;gap:11px;padding:12px;border-radius:18px;background:var(--card2);border:1px solid transparent}.voice-msg.mine{background:var(--greenSoft)}.voice-play{width:46px;height:46px;border-radius:15px;background:var(--card);display:grid;place-items:center;color:var(--green);flex:0 0 auto;box-shadow:var(--shadow2)}.voice-meta{min-width:0;flex:1}.voice-meta b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.voice-meta small{display:block;color:var(--muted);margin-top:3px}.voice-new{font-size:11px;font-weight:800;color:#fff;background:var(--terra);border-radius:999px;padding:5px 8px}.voice-delete{width:38px;height:38px;border-radius:12px;background:transparent;color:var(--muted);display:grid;place-items:center;flex:0 0 auto}.voice-delete:active{background:var(--terraSoft);color:var(--terra)}.lesson-voice-box{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}.knowledge-hero{padding:18px}.knowledge-section{margin-top:14px}.knowledge-vocab{display:grid;gap:9px}.knowledge-word{padding:13px;border-radius:17px;background:var(--card2)}.knowledge-word .italian{font-size:19px}.knowledge-rule{padding:14px;border-radius:18px;background:var(--card2);line-height:1.5}.record-orb{width:94px;height:94px;border-radius:50%;margin:18px auto 12px;display:grid;place-items:center;background:var(--terra);color:#fff;font-size:31px;box-shadow:0 10px 35px color-mix(in srgb,var(--terra) 32%,transparent);transition:transform .15s ease}.record-orb.recording{animation:recordPulse 1.2s ease-in-out infinite}.record-orb:active{transform:scale(.97)}@keyframes recordPulse{50%{box-shadow:0 10px 45px color-mix(in srgb,var(--terra) 50%,transparent);transform:scale(1.04)}}.record-time{text-align:center;font-size:31px;font-weight:820;letter-spacing:-.03em}.record-status{text-align:center;color:var(--muted);font-size:13px;min-height:20px}.audio-preview{width:100%;margin:12px 0}.segmented{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--card2);padding:5px;border-radius:16px}.segmented button{min-height:42px;border-radius:12px;background:transparent;font-weight:760}.segmented button.active{background:var(--card);box-shadow:var(--shadow2)}
     @media (min-width:760px){.app{padding-bottom:95px}.screen{padding-top:22px}.practice-grid{grid-template-columns:repeat(4,1fr)}.bottom-nav{left:50%;right:auto;transform:translateX(-50%);width:760px;border-radius:24px 24px 0 0}.hero{padding:26px}.title{font-size:38px}.stat-row{gap:12px}}
   </style>
 </head>
@@ -133,6 +133,7 @@
   const CLOUD_META_KEY = 'parliamo_cloud_meta_v1';
   const DAY = 86400000;
   const REVIEW_INTERVALS = [0,1,3,7,14,30,60];
+  const LESSON_FIRST_PASS_XP = 100;
   const ERROR_LABELS = { vocabulary:'Wortschatz', grammar:'Grammatik', pronunciation:'Aussprache', comprehension:'Verständnis', careless:'Flüchtigkeit', articles:'Artikel', verbs:'Verbformen', prepositions:'Präpositionen', wordorder:'Satzbau', passato:'Passato prossimo' };
 
   const CURRICULUM = [
@@ -292,7 +293,7 @@
   ];
 
   function newUser(name='Torben'){
-    return {name,onboardingComplete:false,week:1,currentLesson:'w1l1',xp:0,streak:0,lastStudyDate:null,studyDates:[],completedLessons:[],masteredLessons:[],lessonScores:{},mastery:{},errors:{},attempts:[],reviewStats:{correct:0,total:0},speakingSeconds:0,learningSeconds:0,activityLog:[],diagnosticComplete:false,diagnosticScore:0,lastActiveLesson:'w1l1',achievements:[],exams:{A1:null,A2:null},weeklyTests:[],goals:[]};
+    return {name,onboardingComplete:false,week:1,currentLesson:'w1l1',xp:0,streak:0,lastStudyDate:null,studyDates:[],completedLessons:[],masteredLessons:[],lessonScores:{},lessonXpAwarded:[],lessonFirstPassedAt:{},mastery:{},errors:{},attempts:[],reviewStats:{correct:0,total:0},speakingSeconds:0,learningSeconds:0,activityLog:[],diagnosticComplete:false,diagnosticScore:0,lastActiveLesson:'w1l1',achievements:[],exams:{A1:null,A2:null},weeklyTests:[],goals:[]};
   }
   function initialState(){
     return {version:2,onboardingComplete:false,activeUser:'u1',users:{u1:newUser('Torben'),u2:newUser('Freund')},shared:{goals:[],challenges:[],speakingSeconds:0,completedWeeks:[],milestones:[]},settings:{},createdAt:new Date().toISOString()};
@@ -307,14 +308,14 @@
     const base=initialState();
     if(!s || typeof s!=='object') return base;
     s.version=2; s.users=s.users||base.users; s.shared=Object.assign(base.shared,s.shared||{}); s.settings=s.settings||{};
-    ['u1','u2'].forEach(id=>{s.users[id]=Object.assign(newUser(id==='u1'?'Torben':'Freund'),s.users[id]||{}); s.users[id].mastery=s.users[id].mastery||{}; s.users[id].errors=s.users[id].errors||{}; s.users[id].attempts=s.users[id].attempts||[]; s.users[id].activityLog=s.users[id].activityLog||[];});
+    ['u1','u2'].forEach(id=>{s.users[id]=Object.assign(newUser(id==='u1'?'Torben':'Freund'),s.users[id]||{}); s.users[id].mastery=s.users[id].mastery||{}; s.users[id].errors=s.users[id].errors||{}; s.users[id].attempts=s.users[id].attempts||[]; s.users[id].activityLog=s.users[id].activityLog||[]; s.users[id].lessonXpAwarded=Array.isArray(s.users[id].lessonXpAwarded)?s.users[id].lessonXpAwarded:[...(s.users[id].completedLessons||[])]; s.users[id].lessonFirstPassedAt=s.users[id].lessonFirstPassedAt||{};});
     return s;
   }
   let state=loadState();
   let ui={tab:'today',onboardStep:1,lesson:null,lessonStep:0,lessonCards:[],lessonAnswers:{},hintLevel:{},timer:null,timerSeconds:0,timerRunning:false,partnerTimer:null,diagnosticIndex:0,diagnosticScore:0,diagnosticAnswers:0};
 
   let cloud={client:null,session:null,user:null,groupId:null,slot:1,inviteCode:null,groupName:'Parliamo',memberCount:0,ready:false,hydrating:false,syncTimer:null,pollTimer:null,status:'local',lastSync:null,authMode:'login',groupMode:'create',message:'',error:''};
-  let voice={messages:[],loading:false,loaded:false,recorder:null,stream:null,chunks:[],startedAt:0,duration:0,timer:null,blob:null,previewUrl:null,mimeType:'',sending:false,channel:null,currentAudio:null,currentId:null};
+  let voice={messages:[],loading:false,loaded:false,recorder:null,stream:null,chunks:[],startedAt:0,duration:0,timer:null,blob:null,previewUrl:null,mimeType:'',sending:false,channel:null,currentAudio:null,currentId:null,lessonId:null};
 
   function cloudConfig(){try{return JSON.parse(localStorage.getItem(CLOUD_CONFIG_KEY)||'null')}catch(e){return null}}
   function cloudMeta(){try{return JSON.parse(localStorage.getItem(CLOUD_META_KEY)||'null')}catch(e){return null}}
@@ -400,31 +401,32 @@
     if(!cloud.client||!cloud.groupId)return;
     if(!silent){voice.loading=true;if(ui.tab==='together')renderTogether();}
     try{
-      const {data,error}=await cloud.client.from('voice_messages').select('id,sender_id,storage_path,duration_seconds,mime_type,created_at,listened_at').eq('group_id',cloud.groupId).order('created_at',{ascending:false}).limit(30);
+      const {data,error}=await cloud.client.from('voice_messages').select('id,sender_id,storage_path,duration_seconds,mime_type,lesson_id,created_at,listened_at').eq('group_id',cloud.groupId).order('created_at',{ascending:false}).limit(30);
       if(error)throw error;let rows=data||[];
       if(rows.length){const signed=await cloud.client.storage.from('voice-messages').createSignedUrls(rows.map(m=>m.storage_path),900);if(!signed.error&&signed.data){const map=new Map(signed.data.map(x=>[x.path,x.signedUrl||x.signedURL]));const now=Date.now();rows=rows.map(m=>Object.assign(m,{signed_url:map.get(m.storage_path)||null,signed_at:now}));}}
       voice.messages=rows;voice.loaded=true;
     }catch(err){console.warn('Voice messages failed',err);if(!silent)toast('Sprachnachrichten konnten nicht geladen werden.');}
-    finally{voice.loading=false;if(ui.tab==='together')renderTogether();}
+    finally{voice.loading=false;if(ui.tab==='together')renderTogether();else if(ui.knowledgeLessonId)renderKnowledgeBase(ui.knowledgeLessonId);else if(ui.lesson?.id)renderLesson();}
   }
   function setupVoiceRealtime(){
     if(!cloud.client||!cloud.groupId)return;
     if(voice.channel){try{cloud.client.removeChannel(voice.channel)}catch(e){} voice.channel=null;}
-    voice.channel=cloud.client.channel(`voice-${cloud.groupId}`).on('postgres_changes',{event:'INSERT',schema:'public',table:'voice_messages',filter:`group_id=eq.${cloud.groupId}`},()=>loadVoiceMessages(true)).subscribe();
+    voice.channel=cloud.client.channel(`voice-${cloud.groupId}`).on('postgres_changes',{event:'*',schema:'public',table:'voice_messages',filter:`group_id=eq.${cloud.groupId}`},()=>loadVoiceMessages(true)).subscribe();
   }
-  function voiceListHtml(){
+  function voiceListHtml(lessonId=null,emptyText='Noch keine Sprachnachricht. Schick die erste kurze Nachricht auf Italienisch.'){
     if(voice.loading&&!voice.loaded)return '<div class="notice">Sprachnachrichten werden geladen …</div>';
-    if(!voice.messages.length)return '<div class="notice">Noch keine Sprachnachricht. Schick die erste kurze Nachricht auf Italienisch.</div>';
-    return `<div class="voice-list">${voice.messages.map(m=>{const mine=m.sender_id===cloud.user?.id,name=mine?user().name:otherUser().name,unread=!mine&&!m.listened_at;return `<div class="voice-msg ${mine?'mine':''}"><button class="voice-play" data-action="voice-play" data-voice-id="${esc(m.id)}" aria-label="Sprachnachricht abspielen"><i class="fa-solid fa-play"></i></button><div class="voice-meta"><b>${mine?'Du':esc(name)}</b><small>${fmtVoiceTime(m.duration_seconds)} · ${new Date(m.created_at).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}${mine&&m.listened_at?' · angehört':''}</small></div>${unread?'<span class="voice-new">Neu</span>':''}</div>`}).join('')}</div>`;
+    const rows=lessonId?voice.messages.filter(m=>m.lesson_id===lessonId):voice.messages;
+    if(!rows.length)return `<div class="notice">${esc(emptyText)}</div>`;
+    return `<div class="voice-list">${rows.map(m=>{const mine=m.sender_id===cloud.user?.id,name=mine?user().name:otherUser().name,unread=!mine&&!m.listened_at,lesson=m.lesson_id?getLesson(m.lesson_id):null;return `<div class="voice-msg ${mine?'mine':''}"><button class="voice-play" data-action="voice-play" data-voice-id="${esc(m.id)}" aria-label="Sprachnachricht abspielen"><i class="fa-solid fa-play"></i></button><div class="voice-meta"><b>${mine?'Du':esc(name)}${lessonId?'':lesson?` · ${esc(lesson.title)}`:''}</b><small>${fmtVoiceTime(m.duration_seconds)} · ${new Date(m.created_at).toLocaleString('de-DE',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})}${mine&&m.listened_at?' · angehört':''}</small></div>${unread?'<span class="voice-new">Neu</span>':''}${mine?`<button class="voice-delete" data-action="voice-delete" data-voice-id="${esc(m.id)}" aria-label="Sprachnachricht löschen"><i class="fa-solid fa-trash"></i></button>`:''}</div>`}).join('')}</div>`;
   }
-  function openVoiceRecorder(){
+  function openVoiceRecorder(lessonId=null){
     if(!cloud.memberCount||cloud.memberCount<2)return toast('Dein Lernpartner muss zuerst der Gruppe beitreten.');
     if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder)return infoSheet('Mikrofon nicht verfügbar','Dieses Gerät unterstützt die benötigte Browser-Aufnahme nicht. Öffne die App mit einer aktuellen Safari-Version über HTTPS.');
-    clearVoiceDraft();renderVoiceRecorderSheet();
+    clearVoiceDraft();voice.lessonId=lessonId||null;renderVoiceRecorderSheet();
   }
   function renderVoiceRecorderSheet(status='Tippe auf das Mikrofon und sprich auf Italienisch.'){
-    const recording=voice.recorder?.state==='recording',ready=!!voice.blob;
-    showSheet(`<div class="row between"><div><span class="eyebrow">Sprachnachricht</span><h2 style="margin:4px 0">An ${esc(otherUser().name)}</h2></div><button class="icon-btn" data-action="voice-close"><i class="fa-solid fa-xmark"></i></button></div><p class="sub">Ideal für kurze Partnerübungen: Frage stellen, antworten oder 30–60 Sekunden frei sprechen.</p><button class="record-orb ${recording?'recording':''}" data-action="${recording?'voice-stop':'voice-start'}" aria-label="${recording?'Aufnahme stoppen':'Aufnahme starten'}"><i class="fa-solid ${recording?'fa-stop':'fa-microphone'}"></i></button><div class="record-time">${fmtVoiceTime(voice.duration)}</div><div class="record-status">${esc(status)}</div>${ready?`<audio class="audio-preview" controls preload="metadata" src="${voice.previewUrl}"></audio><div class="row" style="margin-top:10px"><button class="btn secondary grow" data-action="voice-discard"><i class="fa-solid fa-rotate-left"></i>Neu aufnehmen</button><button class="btn primary grow" data-action="voice-send" ${voice.sending?'disabled':''}><i class="fa-solid fa-paper-plane"></i>${voice.sending?'Sende …':'Senden'}</button></div>`:''}`);
+    const recording=voice.recorder?.state==='recording',ready=!!voice.blob,lesson=voice.lessonId?getLesson(voice.lessonId):null;
+    showSheet(`<div class="row between"><div><span class="eyebrow">${lesson?`Lektion ${esc(lesson.letter)} · Sprachnachricht`:'Sprachnachricht'}</span><h2 style="margin:4px 0">An ${esc(otherUser().name)}</h2></div><button class="icon-btn" data-action="voice-close"><i class="fa-solid fa-xmark"></i></button></div><p class="sub">${lesson?`Passend zu „${esc(lesson.title)}“: ${esc(lesson.speaking.prompt)}`:'Ideal für kurze Partnerübungen: Frage stellen, antworten oder 30–60 Sekunden frei sprechen.'}</p><button class="record-orb ${recording?'recording':''}" data-action="${recording?'voice-stop':'voice-start'}" aria-label="${recording?'Aufnahme stoppen':'Aufnahme starten'}"><i class="fa-solid ${recording?'fa-stop':'fa-microphone'}"></i></button><div class="record-time">${fmtVoiceTime(voice.duration)}</div><div class="record-status">${esc(status)}</div>${ready?`<audio class="audio-preview" controls preload="metadata" src="${voice.previewUrl}"></audio><div class="row" style="margin-top:10px"><button class="btn secondary grow" data-action="voice-discard"><i class="fa-solid fa-rotate-left"></i>Neu aufnehmen</button><button class="btn primary grow" data-action="voice-send" ${voice.sending?'disabled':''}><i class="fa-solid fa-paper-plane"></i>${voice.sending?'Sende …':'Senden'}</button></div>`:''}`);
   }
   async function startVoiceRecording(){
     clearVoiceDraft();
@@ -446,8 +448,8 @@
     const ext=voiceExtension(voice.mimeType),id=(crypto.randomUUID?crypto.randomUUID():`${Date.now()}-${Math.random().toString(16).slice(2)}`),path=`${cloud.groupId}/${cloud.user.id}/${id}.${ext}`;
     try{
       const {error:upErr}=await cloud.client.storage.from('voice-messages').upload(path,voice.blob,{contentType:(voice.mimeType||voice.blob.type||'audio/webm').split(';')[0],upsert:false,cacheControl:'3600'});if(upErr)throw upErr;
-      const {error:dbErr}=await cloud.client.from('voice_messages').insert({group_id:cloud.groupId,sender_id:cloud.user.id,storage_path:path,duration_seconds:Math.max(1,Math.round(voice.duration)),mime_type:voice.mimeType||voice.blob.type||'audio/webm'});if(dbErr){await cloud.client.storage.from('voice-messages').remove([path]);throw dbErr;}
-      clearVoiceDraft();voice.sending=false;closeSheet();await loadVoiceMessages(true);toast('Sprachnachricht gesendet.');renderTogether();
+      const lessonId=voice.lessonId||null;const {error:dbErr}=await cloud.client.from('voice_messages').insert({group_id:cloud.groupId,sender_id:cloud.user.id,storage_path:path,duration_seconds:Math.max(1,Math.round(voice.duration)),mime_type:voice.mimeType||voice.blob.type||'audio/webm',lesson_id:lessonId});if(dbErr){await cloud.client.storage.from('voice-messages').remove([path]);throw dbErr;}
+      clearVoiceDraft();voice.lessonId=null;voice.sending=false;closeSheet();await loadVoiceMessages(true);toast(lessonId?'Sprachnachricht zur Lektion gesendet.':'Sprachnachricht gesendet.');if(ui.knowledgeLessonId)renderKnowledgeBase(ui.knowledgeLessonId);else if(ui.lesson?.id)renderLesson();else renderTogether();
     }catch(err){voice.sending=false;console.warn('Voice send failed',err);renderVoiceRecorderSheet(`Senden fehlgeschlagen: ${err?.message||'Unbekannter Fehler'}`);}
   }
   async function playVoiceMessage(id,button){
@@ -468,6 +470,17 @@
       await audio.play();
       if(m.sender_id!==cloud.user.id&&!m.listened_at){const now=new Date().toISOString();cloud.client.from('voice_messages').update({listened_at:now}).eq('id',m.id).neq('sender_id',cloud.user.id).then(({error:markErr})=>{if(!markErr)m.listened_at=now;});}
     }catch(err){console.warn('Voice playback failed',err);if(button){button.disabled=false;button.querySelector('i').className='fa-solid fa-play';}toast('Sprachnachricht konnte nicht geladen werden.');}
+  }
+  async function deleteVoiceMessage(id){
+    const m=voice.messages.find(x=>x.id===id);if(!m||!cloud.client||m.sender_id!==cloud.user?.id)return;
+    if(!window.confirm('Diese gesendete Sprachnachricht wirklich löschen?'))return;
+    try{
+      if(voice.currentId===id&&voice.currentAudio){voice.currentAudio.pause();voice.currentAudio=null;voice.currentId=null;}
+      const {error:fileErr}=await cloud.client.storage.from('voice-messages').remove([m.storage_path]);if(fileErr)throw fileErr;
+      const {error:dbErr}=await cloud.client.from('voice_messages').delete().eq('id',id).eq('sender_id',cloud.user.id);if(dbErr)throw dbErr;
+      voice.messages=voice.messages.filter(x=>x.id!==id);toast('Sprachnachricht gelöscht.');
+      if(ui.tab==='together')renderTogether();else if(ui.knowledgeLessonId)renderKnowledgeBase(ui.knowledgeLessonId);else if(ui.lesson?.id)renderLesson();
+    }catch(err){console.warn('Voice delete failed',err);toast(`Löschen fehlgeschlagen: ${err?.message||'Unbekannter Fehler'}`);}
   }
   function cloudGate(inner){document.querySelector('#bottomNav')?.classList.add('hidden');document.querySelector('#main').innerHTML=`<div class="cloud-gate"><div class="cloud-wrap">${inner}</div></div>`}
   function renderCloudConfig(error=''){
@@ -529,7 +542,7 @@
     const next=new Date(now.getTime()+days*DAY); if(days===0) next.setHours(next.getHours()+4); m.nextReview=next.toISOString();
     u.attempts.push({ts:now.toISOString(),exId:ex.id,type:ex.type,result,help:helpLevel,mode,objectId:ex.objectId,error:ex.error});
     if(mode==='review'){u.reviewStats.total++; if(result==='correct')u.reviewStats.correct++;}
-    u.xp+=result==='correct'?10:result==='almost'?5:1; updateStudyDay(2);
+    updateStudyDay(2);
     save();
   }
   function addError(cat,n=1){if(n<=0)return;const u=user();u.errors[cat]=(u.errors[cat]||0)+n;}
@@ -623,7 +636,7 @@
   }
   function renderWeekCard(w){
     const u=user(); const isW1=w.n===1,locked=w.n>u.week || w.n>1, current=w.n===u.week; let nodes='';
-    if(isW1){nodes=W1_LESSONS.map(l=>{const st=lessonStatus(l.id),icon=st==='mastered'?'fa-crown':st==='done'?'fa-check':st==='started'?'fa-ellipsis':st==='locked'?'fa-lock':st==='repair'?'fa-screwdriver-wrench':'fa-play';return `<div class="lesson-node"><span class="node-state ${st}"><i class="fa-solid ${icon}"></i></span><div><b>${l.title}</b><div class="tiny muted">Lektion ${l.letter} · ${l.subtitle}</div></div><button ${st==='locked'?'disabled':''} data-lesson="${l.id}">${st==='done'||st==='mastered'?'Wiederholen':st==='repair'?'Festigen':'Start'}</button></div>`}).join('')+`<div class="lesson-node"><span class="node-state ${allWeek1LessonsDone()?'available':'locked'}"><i class="fa-solid fa-trophy"></i></span><div><b>Wochen-Challenge</b><div class="tiny muted">Erstes Gespräch · gemeinsam</div></div><button ${allWeek1LessonsDone()?'':'disabled'} data-action="week-challenge">Start</button></div>`;}
+    if(isW1){nodes=W1_LESSONS.map(l=>{const st=lessonStatus(l.id),icon=st==='mastered'?'fa-crown':st==='done'?'fa-check':st==='started'?'fa-ellipsis':st==='locked'?'fa-lock':st==='repair'?'fa-screwdriver-wrench':'fa-play';return `<div class="lesson-node"><span class="node-state ${st}"><i class="fa-solid ${icon}"></i></span><div><b>${l.title}</b><div class="tiny muted">Lektion ${l.letter} · ${l.subtitle}</div></div>${st==='done'||st==='mastered'?`<button data-knowledge="${l.id}">Übersicht</button>`:`<button ${st==='locked'?'disabled':''} data-lesson="${l.id}">${st==='repair'?'Festigen':'Start'}</button>`}</div>`}).join('')+`<div class="lesson-node"><span class="node-state ${allWeek1LessonsDone()?'available':'locked'}"><i class="fa-solid fa-trophy"></i></span><div><b>Wochen-Challenge</b><div class="tiny muted">Erstes Gespräch · gemeinsam</div></div><button ${allWeek1LessonsDone()?'':'disabled'} data-action="week-challenge">Start</button></div>`;}
     else if(w.n===8){nodes=`<div class="lesson-node"><span class="node-state locked"><i class="fa-solid fa-medal"></i></span><div><b>A1-Prüfung</b><div class="tiny muted">80 % gesamt · 75 % je Bereich · 3 Min. Partnergespräch</div></div><button disabled>Gesperrt</button></div>`;}
     else if(w.n===24){nodes=`<div class="lesson-node"><span class="node-state locked"><i class="fa-solid fa-graduation-cap"></i></span><div><b>A2-Abschlussprüfung</b><div class="tiny muted">Wortschatz · Grammatik · Hören · Lesen · Schreiben · Sprechen</div></div><button disabled>Gesperrt</button></div>`;}
     return `<div class="card week-card ${locked?'locked':''} ${current?'current':''}"><div class="week-top"><div class="week-num">${w.n}</div><div class="grow"><b>${w.title}</b><div class="small muted">${w.goal}</div><div class="hero-meta" style="margin:10px 0 0">${w.topics.slice(0,3).map(t=>`<span class="pill">${t}</span>`).join('')}</div></div>${locked?'<i class="fa-solid fa-lock muted"></i>':''}</div>${nodes}${locked&&w.n>1?`<div class="lock-note">Sichtbar als Kursvorschau. Freischaltung hängt von Lektionen, Wiederholungsquote, Grundlagen-Mastery und Tests ab.</div>`:''}</div>`;
@@ -692,10 +705,25 @@
   function topErrors(n=3){return Object.entries(user().errors||{}).filter(([,v])=>v>0).sort((a,b)=>b[1]-a[1]).slice(0,n).map(([k,v])=>({key:k,count:v,label:ERROR_LABELS[k]||k}));}
   function strengthText(){const c=competencies();const sorted=Object.entries(c).sort((a,b)=>b[1]-a[1]);return sorted[0][1]>0?`${sorted[0][0]} ist aktuell dein stärkster gemessener Bereich (${sorted[0][1]} %).`:'Noch keine Daten – starte mit deiner ersten aktiven Lektion.';}
 
+  function openKnowledgeBase(id){
+    const lesson=getLesson(id);if(!lesson||!user().completedLessons.includes(id))return toast('Die Übersicht wird nach dem ersten Bestehen freigeschaltet.');
+    ui.lesson=null;ui.knowledgeLessonId=id;renderKnowledgeBase(id);if(cloud.ready&&cloud.groupId&&!voice.loading)setTimeout(()=>loadVoiceMessages(true),0);
+  }
+  function renderKnowledgeBase(id){
+    const lesson=getLesson(id);if(!lesson)return;const score=user().lessonScores[id]??0,partnerJoined=cloud.memberCount>=2;
+    const vocab=lesson.vocab.map(vocabById).filter(Boolean);
+    $('#overlay').innerHTML=`<div class="lesson-shell"><div class="lesson-wrap"><div class="lesson-header"><div class="lesson-header-row"><button class="icon-btn" data-action="close-knowledge"><i class="fa-solid fa-xmark"></i></button><div class="grow"><b>Knowledgebase</b></div><span class="pill"><i class="fa-solid fa-check"></i> abgeschlossen</span></div><div class="lesson-title">${esc(lesson.title)} · reine Übersicht ohne Aufgaben</div></div>
+      <div class="card knowledge-hero"><span class="eyebrow">Lektion ${esc(lesson.letter)} · Woche ${lesson.week}</span><h1 style="margin:5px 0 8px;font-size:31px">${esc(lesson.title)}</h1><p class="sub" style="font-size:17px">${esc(lesson.goal)}</p><div class="hero-meta"><span class="pill">Mini-Test ${score}%</span><span class="pill">${user().lessonXpAwarded.includes(id)?`${LESSON_FIRST_PASS_XP} XP einmalig erhalten`:'keine XP verbucht'}</span></div></div>
+      <div class="section-head"><h2>Neue Wörter & Wendungen</h2><small>${vocab.length} Inhalte</small></div><div class="knowledge-vocab">${vocab.map(v=>`<div class="knowledge-word"><div class="row between"><div><div class="italian">${esc(v.it)}</div><div class="small muted">${esc(v.de)}</div></div><button class="audio-btn" data-speak="${esc(v.it)}"><i class="fa-solid fa-volume-high"></i></button></div><div class="example" style="margin-top:9px"><b>${esc(v.ex)}</b><br><span class="small muted">${esc(v.exDe)}</span><button class="audio-btn" data-speak="${esc(v.ex)}"><i class="fa-solid fa-volume-high"></i></button></div>${v.pron?`<div class="pron">Aussprache: ${esc(v.pron)}</div>`:''}</div>`).join('')}</div>
+      <div class="section-head"><h2>Grammatikmuster</h2><small>kurz & anwendbar</small></div><div class="card knowledge-section"><h2 style="margin-top:0">${esc(lesson.grammar.title)}</h2>${lesson.grammar.examples.map(x=>`<div class="example" style="margin:7px 0"><b>${esc(x)}</b><button class="audio-btn" data-speak="${esc(x)}"><i class="fa-solid fa-volume-high"></i></button></div>`).join('')}<div class="pattern">${lesson.grammar.highlight.map(x=>`<b>${esc(x)}</b>`).join('')}</div><div class="knowledge-rule">${esc(lesson.grammar.explain)}</div></div>
+      <div class="section-head"><h2>Sprechziel</h2><small>das solltest du frei können</small></div><div class="card knowledge-section"><span class="pill"><i class="fa-solid fa-microphone-lines"></i> Parla!</span><h2>${esc(lesson.speaking.title)}</h2><p class="sub" style="font-size:16px">${esc(lesson.speaking.prompt)}</p><div class="hero-meta">${lesson.speaking.prompts.map(x=>`<span class="pill">${esc(x)}</span>`).join('')}</div><div class="lesson-voice-box"><div class="row between"><div><b>Sprachnachrichten zu dieser Lektion</b><div class="small muted">Nur Nachrichten mit diesem Lernziel.</div></div><button class="btn secondary" data-action="voice-record" data-lesson-id="${esc(id)}" ${!partnerJoined?'disabled':''}><i class="fa-solid fa-microphone"></i>Senden</button></div>${partnerJoined?voiceListHtml(id,'Noch keine Sprachnachricht zu dieser Lektion.'):'<div class="notice" style="margin-top:10px">Dein Lernpartner muss zuerst der Gruppe beitreten.</div>'}</div></div>
+      <div class="card" style="margin-top:16px"><div class="row"><div class="li-icon"><i class="fa-solid fa-brain"></i></div><div class="grow"><b>Willst du aktiv wiederholen?</b><div class="small muted">Du kannst die Lektion freiwillig erneut üben. Dafür gibt es keine weiteren Abschluss-XP.</div></div></div><button class="btn ghost wide" style="margin-top:12px" data-lesson="${esc(id)}">Lektion ohne XP erneut üben</button></div>
+    </div></div>`;
+  }
   function openLesson(id,mode='lesson'){
     const lesson=getLesson(id); if(!lesson)return; if(mode==='lesson'&&lessonStatus(id)==='locked'){toast('Zuerst die vorherige Lektion abschließen.');return;} if(mode==='lesson'&&lessonStatus(id)==='repair'){toast('Bevor es weitergeht, festigen wir kurz die unsicheren Grundlagen.');targetErrors();return;}
-    ui.lesson={id,mode,score:0,testTotal:0,testCorrect:0,helpUsed:0};ui.lessonStep=0;ui.lessonAnswers={};ui.hintLevel={};
-    user().lastActiveLesson=id;user().lastActiveLesson=id;user().currentLesson=id;save();
+    ui.knowledgeLessonId=null;ui.lesson={id,mode,score:0,testTotal:0,testCorrect:0,helpUsed:0};ui.lessonStep=0;ui.lessonAnswers={};ui.hintLevel={};
+    const replay=user().completedLessons.includes(id);if(!replay){user().lastActiveLesson=id;user().currentLesson=id;}save();
     const cards=[];
     const oldWarm=getWarmups(lesson);
     oldWarm.forEach(ex=>cards.push({kind:'exercise',ex}));
@@ -703,7 +731,8 @@
     cards.push({kind:'grammar',g:lesson.grammar});
     lesson.exerciseIds.map(id=>EXERCISES[id]).filter(Boolean).forEach(ex=>cards.push({kind:'exercise',ex}));
     cards.push({kind:'speaking',s:lesson.speaking});
-    cards.push({kind:'summary'}); ui.lessonCards=cards;renderLesson();
+    cards.push({kind:'lessonVoice'});
+    cards.push({kind:'summary'}); ui.lessonCards=cards;renderLesson();if(cloud.ready&&cloud.groupId&&!voice.loading)setTimeout(()=>loadVoiceMessages(true),0);
   }
   function getWarmups(lesson){
     const idx=W1_LESSONS.findIndex(l=>l.id===lesson.id); if(idx===0)return[];
@@ -717,6 +746,7 @@
     if(card.kind==='grammar')body=renderGrammarCard(card.g);
     if(card.kind==='exercise')body=renderExercise(card.ex);
     if(card.kind==='speaking')body=renderSpeakingCard(card.s,'lesson');
+    if(card.kind==='lessonVoice')body=renderLessonVoiceCard(lesson);
     if(card.kind==='summary')body=renderLessonSummary(lesson);
     $('#overlay').innerHTML=`<div class="lesson-shell"><div class="lesson-wrap"><div class="lesson-header"><div class="lesson-header-row"><button class="icon-btn" data-action="close-lesson"><i class="fa-solid fa-xmark"></i></button><div class="progress"><i style="width:${progress}%"></i></div><span class="small strong">${ui.lessonStep+1}/${ui.lessonCards.length}</span></div><div class="lesson-title">${esc(lesson.title)} · ${esc(lesson.goal)}</div></div>${body}</div></div>`;
   }
@@ -778,27 +808,36 @@
     if(ui.timer===null||ui.timerContext!==context){clearLessonTimer();ui.timerSeconds=s.seconds;ui.timerRunning=false;ui.timerContext=context;}
     return `<div class="stage-label">Aktive Produktion · Sprechen</div><div class="card learning-card"><span class="pill"><i class="fa-solid fa-microphone"></i> Parla!</span><h2>${esc(s.title)}</h2><p class="sub" style="font-size:17px">${esc(s.prompt)}</p><div class="timer-ring"><div id="speakTimer" class="timer">${formatTime(ui.timerSeconds)}</div></div><div class="hero-meta">${s.prompts.map(x=>`<span class="pill">${esc(x)}</span>`).join('')}</div><div class="lesson-actions"><button class="btn secondary" data-action="timer-toggle"><i class="fa-solid ${ui.timerRunning?'fa-pause':'fa-play'}"></i>${ui.timerRunning?'Pause':'Start'}</button><button class="btn primary" data-action="timer-finish"><i class="fa-solid fa-check"></i>Fertig</button></div></div>`;
   }
+  function renderLessonVoiceCard(lesson){
+    const partnerJoined=cloud.memberCount>=2;
+    return `<div class="stage-label">Partner · Sprachnachricht</div><div class="card learning-card"><span class="pill"><i class="fa-solid fa-paper-plane"></i> An ${esc(otherUser().name)}</span><h2>Schick eure Sprechübung weiter</h2><p class="sub" style="font-size:17px">Nimm eine kurze Nachricht passend zu <b>${esc(lesson.title)}</b> auf. So könnt ihr euch zeitversetzt hören und vergleichen.</p><div class="notice terraBg"><b>Sprechziel:</b> ${esc(lesson.speaking.prompt)}</div><div class="hero-meta">${lesson.speaking.prompts.map(x=>`<span class="pill">${esc(x)}</span>`).join('')}</div><div class="lesson-voice-box">${partnerJoined?`<button class="btn primary wide" data-action="voice-record" data-lesson-id="${esc(lesson.id)}"><i class="fa-solid fa-microphone"></i>Sprachnachricht aufnehmen</button>${voiceListHtml(lesson.id,'Noch keine Sprachnachricht zu dieser Lektion.')}`:'<div class="notice">Dein Lernpartner muss zuerst der Gruppe beitreten. Die Lektion kannst du trotzdem abschließen.</div>'}</div><button class="btn ghost wide" style="margin-top:14px" data-action="lesson-next">${partnerJoined?'Ohne weitere Nachricht weiter':'Weiter'}</button></div>`;
+  }
   function renderLessonSummary(lesson){
     const testPct=ui.lesson.testTotal?pct(ui.lesson.testCorrect,ui.lesson.testTotal):100; const pass=testPct>=80; const mode=ui.lesson.mode;
     let action='complete-lesson',label='Lektion abschließen',buttonClass='primary';
     if(mode==='review'){action=pass?'finish-practice-session':'repair-lesson';label=pass?'Wiederholung beenden':'Unsicheres erneut abrufen';buttonClass=pass?'primary':'terra';}
     if(mode==='weeklyTest'){action=pass?'finish-weekly-test':'repair-lesson';label=pass?'Wochen-Test speichern':'Unsicheres wiederholen';buttonClass=pass?'primary':'terra';}
     if(mode==='lesson'&&!pass){action='repair-lesson';label='Unsicheres wiederholen';buttonClass='terra';}
-    return `<div class="stage-label">${mode==='weeklyTest'?'Wochen-Test':mode==='review'?'Wiederholung':'Mini-Test & Abschluss'}</div><div class="card learning-card"><div class="success-orb"><i class="fa-solid ${pass?'fa-check':'fa-rotate'}"></i></div><h2 style="text-align:center">${pass?(mode==='lesson'?'Lektionen-Ziel erreicht':'Einheit geschafft'):'Fast geschafft'}</h2><p class="sub" style="text-align:center">${pass?esc(lesson.goal):'Lass uns die unsicheren Dinge kurz wiederholen. Kein Strafsystem – wir reparieren gezielt.'}</p><div class="stat-row" style="margin:18px 0"><div class="stat"><strong>${ui.lesson.score}</strong><span>Treffer</span></div><div class="stat"><strong>${testPct}%</strong><span>${mode==='weeklyTest'?'Test':'Mini-Test'}</span></div><div class="stat"><strong>${ui.lesson.helpUsed}</strong><span>Hilfen</span></div><div class="stat"><strong>+${ui.lesson.score*10}</strong><span>ca. XP</span></div></div><button class="btn ${buttonClass} wide" data-action="${action}">${label}</button></div>`;
+    return `<div class="stage-label">${mode==='weeklyTest'?'Wochen-Test':mode==='review'?'Wiederholung':'Mini-Test & Abschluss'}</div><div class="card learning-card"><div class="success-orb"><i class="fa-solid ${pass?'fa-check':'fa-rotate'}"></i></div><h2 style="text-align:center">${pass?(mode==='lesson'?'Lektionen-Ziel erreicht':'Einheit geschafft'):'Fast geschafft'}</h2><p class="sub" style="text-align:center">${pass?esc(lesson.goal):'Lass uns die unsicheren Dinge kurz wiederholen. Kein Strafsystem – wir reparieren gezielt.'}</p><div class="stat-row" style="margin:18px 0"><div class="stat"><strong>${ui.lesson.score}</strong><span>Treffer</span></div><div class="stat"><strong>${testPct}%</strong><span>${mode==='weeklyTest'?'Test':'Mini-Test'}</span></div><div class="stat"><strong>${ui.lesson.helpUsed}</strong><span>Hilfen</span></div><div class="stat"><strong>+${mode==='lesson'&&pass&&!user().lessonXpAwarded.includes(lesson.id)?LESSON_FIRST_PASS_XP:0}</strong><span>${mode==='lesson'?'Abschluss-XP':'XP'}</span></div></div><button class="btn ${buttonClass} wide" data-action="${action}">${label}</button></div>`;
   }
   function finishLesson(){ui.lessonStep=ui.lessonCards.length-1;renderLesson();}
   function completeLesson(){
-    const u=user(),l=getLesson(ui.lesson.id); if(!u.completedLessons.includes(l.id))u.completedLessons.push(l.id);u.lessonScores[l.id]=ui.lesson.testTotal?pct(ui.lesson.testCorrect,ui.lesson.testTotal):100;updateStudyDay(35);
-    const idx=W1_LESSONS.findIndex(x=>x.id===l.id); if(idx<W1_LESSONS.length-1){const next=W1_LESSONS[idx+1];u.currentLesson=next.id;u.lastActiveLesson=next.id;}else u.currentLesson=l.id;
+    const u=user(),l=getLesson(ui.lesson.id),firstPass=!u.completedLessons.includes(l.id);
+    if(firstPass){
+      u.completedLessons.push(l.id);
+      if(!u.lessonXpAwarded.includes(l.id)){u.lessonXpAwarded.push(l.id);u.xp+=LESSON_FIRST_PASS_XP;u.lessonFirstPassedAt[l.id]=new Date().toISOString();}
+    }
+    u.lessonScores[l.id]=Math.max(u.lessonScores[l.id]||0,ui.lesson.testTotal?pct(ui.lesson.testCorrect,ui.lesson.testTotal):100);updateStudyDay(35);
+    if(firstPass){const idx=W1_LESSONS.findIndex(x=>x.id===l.id); if(idx<W1_LESSONS.length-1){const next=W1_LESSONS[idx+1];u.currentLesson=next.id;u.lastActiveLesson=next.id;}else u.currentLesson=l.id;}
     const lessonObjs=l.vocab.map(masteryFor); if(lessonObjs.length&&lessonObjs.every(m=>['Sicher','Beherrscht'].includes(m.level))&&!u.masteredLessons.includes(l.id))u.masteredLessons.push(l.id);
-    save();confetti();closeOverlay();toast('Lektionen-Fortschritt gespeichert.');render();
+    save();confetti();closeOverlay();toast(firstPass?`Lektion bestanden · +${LESSON_FIRST_PASS_XP} XP`:'Lektion erneut abgeschlossen · keine zusätzlichen XP');render();
   }
   function repairLesson(){
     const l=getLesson(ui.lesson.id),bad=l.exerciseIds.map(id=>EXERCISES[id]).filter(ex=>{const m=masteryFor(ex.objectId);return m.level==='Unsicher'||m.wrong>0;});ui.lesson.mode='review';ui.lessonCards=(bad.length?bad:l.exerciseIds.slice(-3).map(id=>EXERCISES[id])).map(ex=>({kind:'exercise',ex}));ui.lessonCards.push({kind:'summary'});ui.lessonStep=0;ui.lesson.score=0;ui.lesson.testTotal=0;ui.lesson.testCorrect=0;ui.lessonAnswers={};ui.hintLevel={};renderLesson();
   }
   function finishPracticeSession(){updateStudyDay(8);save();closeOverlay();toast('Wiederholung gespeichert.');render();}
   function finishWeeklyTest(){const score=ui.lesson.testTotal?pct(ui.lesson.testCorrect,ui.lesson.testTotal):100;user().weeklyTests.push({ts:new Date().toISOString(),week:user().week,score});updateStudyDay(5);save();closeOverlay();if(score>=80)confetti();toast(score>=80?`Wochen-Test bestanden: ${score} %`:`${score} % – gezielte Wiederholung folgt.`);render();}
-  function closeOverlay(){clearLessonTimer();$('#overlay').innerHTML='';ui.lesson=null;}
+  function closeOverlay(){clearLessonTimer();$('#overlay').innerHTML='';ui.lesson=null;ui.knowledgeLessonId=null;}
   function clearLessonTimer(){if(ui.timer){clearInterval(ui.timer);ui.timer=null;}ui.timerRunning=false;}
   function toggleTimer(){
     if(ui.timerRunning){clearInterval(ui.timer);ui.timer=null;ui.timerRunning=false;renderLesson();return;}
@@ -922,6 +961,7 @@
     const speakBtn=e.target.closest('[data-speak]');if(speakBtn){speak(speakBtn.dataset.speak);return;}
     const goal=e.target.closest('[data-goal]');if(goal){const g=goal.dataset.goal,i=state.shared.goals.indexOf(g);if(i>=0)state.shared.goals.splice(i,1);else state.shared.goals.push(g);save();renderOnboarding();return;}
     const diag=e.target.closest('[data-diag]');if(diag){const q=DIAG[ui.diagnosticIndex],ok=Number(diag.dataset.diag)===q.a;ui.diagnosticAnswers++;if(ok){ui.diagnosticScore++;const m=masteryFor(q.obj);m.correct++;m.level='Bekannt';m.lastReview=new Date().toISOString();m.nextReview=new Date(Date.now()+3*DAY).toISOString();}ui.diagnosticIndex++;if(ui.diagnosticIndex>=DIAG.length){user().diagnosticComplete=true;user().diagnosticScore=ui.diagnosticScore;updateStudyDay(3);save();ui.diagnosticIndex=0;ui.diagnosticScore=0;$('#bottomNav').classList.remove('hidden');toast('Startdiagnose gespeichert.');}render();return;}
+    const knowledgeBtn=e.target.closest('[data-knowledge]');if(knowledgeBtn){openKnowledgeBase(knowledgeBtn.dataset.knowledge);return;}
     const lessonBtn=e.target.closest('[data-lesson]');if(lessonBtn){openLesson(lessonBtn.dataset.lesson);return;}
     const choice=e.target.closest('[data-choice]');if(choice&&ui.lesson){const ex=ui.lessonCards[ui.lessonStep].ex;ui.lessonAnswers[ex.id]=Object.assign(ui.lessonAnswers[ex.id]||{},{value:choice.dataset.choice,checked:false});renderLesson();return;}
     const add=e.target.closest('[data-sort-add]');if(add&&ui.lesson){const ex=ui.lessonCards[ui.lessonStep].ex,d=ui.lessonAnswers[ex.id],idx=Number(add.dataset.sortAdd),item=d.bank.find(x=>x.idx===idx);d.bank=d.bank.filter(x=>x.idx!==idx);d.selected.push(item);renderLesson();return;}
@@ -944,7 +984,7 @@
     if(act==='create-group'){awaitMaybe(handleCreateGroup());return;}
     if(act==='join-group'){awaitMaybe(handleJoinGroup());return;}
     if(act==='cloud-refresh'){awaitMaybe((async()=>{closeSheet();await refreshCloudState(true)})());return;}
-    if(act==='voice-record'){openVoiceRecorder();return;}
+    if(act==='voice-record'){const b=e.target.closest('[data-action="voice-record"]');openVoiceRecorder(b?.dataset.lessonId||null);return;}
     if(act==='voice-refresh'){awaitMaybe(loadVoiceMessages(false));return;}
     if(act==='voice-start'){awaitMaybe(startVoiceRecording());return;}
     if(act==='voice-stop'){stopVoiceRecording();return;}
@@ -952,6 +992,7 @@
     if(act==='voice-send'){awaitMaybe(sendVoiceMessage());return;}
     if(act==='voice-close'){clearVoiceDraft();closeSheet();return;}
     if(act==='voice-play'){const b=e.target.closest('[data-action="voice-play"]');awaitMaybe(playVoiceMessage(b?.dataset.voiceId,b));return;}
+    if(act==='voice-delete'){const b=e.target.closest('[data-action="voice-delete"]');awaitMaybe(deleteVoiceMessage(b?.dataset.voiceId));return;}
     if(act==='cloud-logout'){awaitMaybe(handleCloudLogout());return;}
     if(act==='account-sheet'){accountSheet();return;}
     if(act==='onb-next'){ui.onboardStep=Math.min(4,ui.onboardStep+1);renderOnboarding();}
@@ -974,7 +1015,7 @@
     else if(['quicktalk','roleplay','duel','infogap','60sec'].includes(act))showPartnerMode(act);
     else if(act==='close-sheet'){if(voice.recorder||voice.blob)clearVoiceDraft();closeSheet();}
     else if(act==='sheet-backdrop'&&e.target.classList.contains('modal-backdrop')){if(voice.recorder||voice.blob)clearVoiceDraft();closeSheet();}
-    else if(act==='close-lesson')closeOverlay();
+    else if(act==='close-lesson'||act==='close-knowledge')closeOverlay();
     else if(act==='lesson-next')nextLessonCard();
     else if(act==='vocab-again')speak(ui.lessonCards[ui.lessonStep].v.ex);
     else if(act==='check-answer')checkCurrentAnswer();
@@ -1006,7 +1047,7 @@
   document.addEventListener('keydown',e=>{if(e.key==='Enter'&&$('#freeAnswer')&&!ui.lessonAnswers[ui.lessonCards[ui.lessonStep]?.ex?.id]?.checked)checkCurrentAnswer();});
   window.addEventListener('beforeunload',save);
   if('speechSynthesis'in window){speechSynthesis.getVoices();window.speechSynthesis.onvoiceschanged=()=>speechSynthesis.getVoices();}
-  window.addEventListener('focus',()=>{if(cloud.ready&&cloud.groupId){refreshCloudState(false);if(ui.tab==='together')loadVoiceMessages(true);}});
+  window.addEventListener('focus',()=>{if(cloud.ready&&cloud.groupId){refreshCloudState(false);if(ui.tab==='together'||ui.lesson?.id||ui.knowledgeLessonId)loadVoiceMessages(true);}});
   boot();
 })();
 </script>
